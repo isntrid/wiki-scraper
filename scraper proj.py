@@ -37,10 +37,10 @@ while True:
     
     inp = input('What codes would you like to view? Active or expired? ')
 
-    if inp.lower() == 'activ e':
+    if inp.lower() == 'active':
         print(active)
         break
-    elif inp.lower() == 'expired ':
+    elif inp.lower() == 'expired':
         print(expired)
         break
     else:
